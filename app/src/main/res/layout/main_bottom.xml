@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="55dp">
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/title_text"
+        />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:id="@+id/rg_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="首页"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_home_button"
+            android:textColor="@color/selector_tab_text"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            />
+        <RadioButton
+            android:id="@+id/rb_invest"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="投资"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_invest_button"
+            android:textColor="@color/selector_tab_text"
+            android:gravity="center"
+            android:drawablePadding="3dp"/>
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="我的资产"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_me_button"
+            android:textColor="@color/selector_tab_text"
+            android:gravity="center"
+            android:drawablePadding="3dp"/>
+        <RadioButton
+            android:id="@+id/rb_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="更多"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_more_button"
+            android:textColor="@color/selector_tab_text"
+            android:gravity="center"
+            android:drawablePadding="3dp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
